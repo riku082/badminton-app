@@ -51,8 +51,7 @@ if st.sidebar.button("👤 プロフィール一覧"):
     st.session_state.page = "選手プロフィール一覧"
 if st.sidebar.button("📊 データ解析"):
     st.session_state.page = "データ解析"
-if st.sidebar.button("🧾 CSV編集"):
-    st.session_state.page = "CSV編集"
+
 
 page = st.session_state.page
 
